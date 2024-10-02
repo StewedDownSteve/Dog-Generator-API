@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dog Generator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Doggo Viewer</h1>
+        <span id="dog-name">Dougie the Default Doggo</span>
+      </nav>
+    </header>
+
+    <main class="section-container">
+        <section class="column" id="left-column">
+            <section class="item">
+                <label for="breeds">Choose your Breed!</label>
+            </section>
+            <section class="item">
+                <select class="breeds" id="breeds">
+                    <option value="starter" selected>Select Breed</option>
+                </select>
+            </section>
+            <section class="item">
+                <div class="img-container">
+                    <img src="http://placecorgi.com/500/500" class="dog-img" alt="Cute corgi" />
+                </div>
+            </section>
+        </section>
+
+        <section class="column">
+            <section class="item">
+                <h2>Doggo Characteristics</h2>
+                <ul>
+                    <li id="MF">Sex: Male</li>
+                    <li id="age">Age: 2</li>
+                    <li id="likes">Likes: Ham, String Cheese</li>
+                    <li id="dislikes">Dislikes: Baths, Entropy</li>
+                    <li id="fun-fact">Fun Fact: Obsessed with revisiting a spot with cheese from 6 months ago.</li>
+                </ul>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+      <p>Doggo Viewer © 2024 | Fetch your favorite doggo!</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
